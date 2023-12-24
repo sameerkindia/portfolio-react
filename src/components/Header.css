@@ -1,0 +1,14 @@
+header {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6b4226;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}

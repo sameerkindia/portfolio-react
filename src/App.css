@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+/* Primary Color: #3498db (Blue shade)
+Secondary Color: #2ecc71 (Green shade)
+Background Color: #ecf0f1 (Light Greyish Blue)
+Text Color: #2c3e50 (Dark Greyish Blue)
+Accent Color: #e74c3c (Red shade) */
+
+/* Primary Color: #FF6B6B (Light Coral)
+Secondary Color: #6B4226 (Brown)
+Background Color: #F3EFEF (Pale Silver)
+Text Color: #1E1E1E (Jet Black)
+Accent Color: #5D9CEC (Steel Blue) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #1e1e1e;
+  transition: all 0.2s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 62.5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  background-color: #f3efef;
+  /* background-color: #f3efef;
+  opacity: 0.5;
+  background-image: radial-gradient(
+      #6b4226 0.8500000000000001px,
+      transparent 0.8500000000000001px
+    ),
+    radial-gradient(#6b4226 0.8500000000000001px, #f3efef 0.8500000000000001px);
+  background-size: 34px 34px;
+  background-position: 0 0, 17px 17px; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+section {
+  box-shadow: 2px 4px 10px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+.active {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
