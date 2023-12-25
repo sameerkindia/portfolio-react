@@ -1,7 +1,9 @@
+import "./Project.css";
+
 function Project() {
   return (
     <section className="project-section">
-      <h3>Here Are Some Cool Project</h3>
+      <h3 className="sub-heading">Here Are Some Cool Project</h3>
       <div></div>
     </section>
   );

@@ -4,7 +4,7 @@ import "./Button.css";
 function Button({ children, path, isNav }) {
   if (isNav) {
     return (
-      <NavLink to={path} className="btn">
+      <NavLink to={path} className="btn btn-nav">
         {children}
       </NavLink>
     );
