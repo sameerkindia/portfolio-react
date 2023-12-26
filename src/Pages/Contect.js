@@ -12,15 +12,17 @@ function Contect() {
         about discussing your vision and collaborating on exciting ventures.
         Let's bring your ideas to life! Connect me."
       </p>
-      <a className="btn" href="tel:7220932501">
-        Call now
-      </a>
-      <a className="btn" href="sms:7220932501">
-        send a text message
-      </a>
-      <a className="btn" href="mailto:sameerkhanaa5@gmail.com">
-        Send Mail
-      </a>
+      <div className="link-div">
+        <a className="btn" href="tel:7220932501">
+          Call now
+        </a>
+        <a className="btn" href="sms:7220932501">
+          send a text message
+        </a>
+        <a className="btn" href="mailto:sameerkhanaa5@gmail.com">
+          Send Mail
+        </a>
+      </div>
     </section>
   );
 }
